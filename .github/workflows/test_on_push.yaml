@@ -12,6 +12,8 @@ jobs:
         with:
           options: "--check --diff"
           src: "./src"
+          version: "~= 22.0"
+
   run_tests:
     runs-on: [ubuntu-latest]
     strategy:
